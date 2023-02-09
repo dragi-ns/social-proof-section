@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,13 +12,13 @@
     <title>Social proof section | Frontend Mentor</title>
     <link rel="stylesheet" href="./output/style.css" />
   </head>
-  <body class="text-[15px]">
-    <main>
+  <body class="text-[15px] flex flex-col h-full">
+    <main class="flex-1">
       <section
         class="bg-pattern-top-mobile lg:bg-pattern-top-desktop bg-no-repeat bg-left-top text-center lg:text-left"
       >
         <div
-          class="container flex flex-col lg:flex-row lg:gap-x-8 xl:gap-x-16 2xl:gap-x-36 gap-y-10 py-10 lg:pt-28 lg:pb-20"
+          class="container flex flex-col lg:flex-row lg:gap-x-8 xl:gap-x-16 2xl:gap-x-36 gap-y-10 py-12 lg:pt-28 lg:pb-20"
         >
           <div class="max-w-[80%] mx-auto lg:max-w-[40%] lg:mx-0">
             <h1
@@ -154,5 +154,21 @@
         </div>
       </section>
     </main>
+    <footer>
+      <p class="text-sm text-center pb-4">
+        Challenge by
+        <a
+          class="text-very-dark-magenta hover:text-soft-pink"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          class="text-very-dark-magenta hover:text-soft-pink"
+          href="https://github.com/dragi-ns"
+          >dragi-ns</a
+        >.
+      </p>
+    </footer>
   </body>
 </html>
