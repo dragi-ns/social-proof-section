@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "tw": "tailwindcss -i ./input/style.css -o ./output/style.css --watch --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.6"
+  }
+}
